@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image:url('https://1000logos.net/wp-content/uploads/2018/01/overwatch-emblem.jpg'); */
+  background-color: rgb(82, 82, 82);
+  color: rgb(255, 255, 255);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Picture { 
+  width: 350px;
+  height: 500px;
+}
+
+.Characters {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.Header {
+  text-align: center;
+  font-size: 400%;
+  color: rgb(247, 133, 3);
+}
+
+.newCharacter {
+  text-align: center;
+}
+
+.Login {
+  float: right;
+  text-align: center;
+  padding-right: 30px;
 }
